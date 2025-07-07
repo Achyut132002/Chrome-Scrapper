@@ -55,8 +55,12 @@ The downloaded table_data.csv will contain:
 "Alice","30"
 "Bob","25"
 
+```
+
 
 ## Screenshots
+
+The screenshots show the stats of Akashdeep singh .
 
 ![image](https://github.com/user-attachments/assets/0dba7b51-e45c-440b-8912-88bc65934e21)
 
