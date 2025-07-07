@@ -58,6 +58,16 @@ The downloaded table_data.csv will contain:
 ```
 
 
+## 🧠 Assumptions
+
+```
+- The webpage contains at least one <table> element.
+- Only the first <table> found on the page is scraped.
+- Tables are simple and flat — nested tables or advanced formatting are not supported.
+- The table rows contain visible text; no special parsing is done for HTML elements inside cells.
+```
+
+
 ## Screenshots
 
 The screenshots show the stats of Akashdeep singh .
