@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Table Scraper",
+  "version": "1.0",
+  "description": "Scrapes HTML table data and downloads it as CSV",
+  "permissions": ["scripting", "activeTab", "downloads"],
+  "action": {
+  "default_icon": "icon.png",
+  "default_popup": "popup.html",
+  "default_title": "Scrape table to CSV"
+},
+  "host_permissions": ["<all_urls>"]
+}
