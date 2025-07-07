@@ -18,12 +18,14 @@ A simple Chrome extension that scrapes the **first HTML table** on any webpage a
 
 ## 📁 Project Structure
 
+```
 table-to-csv-extension/
-├── manifest.json – Chrome extension configuration
-├── icon.png – Extension icon
-├── popup.html – HTML for the extension's popup UI
-├── popup.js – Listens for button click and runs content script
-└── content.js – Scrapes the table and downloads CSV
+├── manifest.json     # Chrome extension configuration
+├── icon.png          # Extension icon
+├── popup.html        # HTML for the extension's popup UI
+├── popup.js          # Listens for button click and runs content script
+└── content.js        # Scrapes the table and downloads CSV
+```
 
 ## 🛠 How It Works
 
@@ -52,5 +54,23 @@ The downloaded table_data.csv will contain:
 "Name","Age"
 "Alice","30"
 "Bob","25"
+
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/0dba7b51-e45c-440b-8912-88bc65934e21)
+
+![image](https://github.com/user-attachments/assets/d86f0fd8-1724-4d9e-ae13-4d9100756239)
+
+![image](https://github.com/user-attachments/assets/29a14728-dcb1-4580-80ef-3744a60e9cd8)
+
+![image](https://github.com/user-attachments/assets/f88c19cf-677b-4eba-ab3e-84ef4ac0f061)
+
+![image](https://github.com/user-attachments/assets/b031cc9a-99df-4785-8c2f-3b1b3ac4d34e)
+
+
+
+
+
 
 
